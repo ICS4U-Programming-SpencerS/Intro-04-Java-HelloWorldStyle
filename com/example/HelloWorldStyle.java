@@ -1,28 +1,30 @@
 package com.example;
 
 /**
- * Test test test
- *
- * @author Test test test
- * @version 1.0
- * @since 14-2-2024
- */
+* Hello world file but with extra style.
+*
+* @author  Spencer S.
+* @version 1.0
+* @since   2024-Feb-08
+*/
 
-// HelloWorldStyle class
+
 public final class HelloWorldStyle {
+    /**
+    * Stops random instantiation's from happening.
+    */
+    private HelloWorldStyle() {
+        // Prevents instantiation.
+    }
 
-  /** Private constructor to prevent instantiation. */
-  private HelloWorldStyle() {
-    throw new UnsupportedOperationException("Test Test Test1111");
-  }
 
-  /**
-   * This is the main method.
-   *
-   * @param args Unused
-   */
-  public static void main(final String[] args) {
-    System.out.println("Hello, Chris!");
-    System.out.println("Test test test");
-  }
+    /**
+    * Main function code.
+    *
+    * @param args Command line arguments (not used).
+    */
+    public static void main(String[] args) {
+        // Creates the hello world message.
+        System.out.println("Hello world with style in the code.");
+    }
 }
