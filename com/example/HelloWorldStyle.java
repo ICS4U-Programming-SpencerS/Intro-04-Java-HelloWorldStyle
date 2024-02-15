@@ -23,7 +23,7 @@ public final class HelloWorldStyle {
     *
     * @param args Command line arguments (not used).
     */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         // Creates the hello world message.
         System.out.println("Hello world with style in the code.");
     }
