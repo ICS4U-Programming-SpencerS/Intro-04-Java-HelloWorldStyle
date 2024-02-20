@@ -14,7 +14,7 @@ public final class HelloWorldStyle {
   }
 
   /**
-   * Main function code.
+   * Main code.
    *
    * @param args Command line arguments (not used).
    */
